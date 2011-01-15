@@ -15,7 +15,6 @@ INSERT INTO `creature` (`guid`,`id`,`map`,`spawnMask`,`phaseMask`,`modelid`,`equ
 -- clean up
 DROP TABLE `armory_character_stats`;
 
-
 -- FallenAngelX
 ALTER TABLE db_version_Infinity_Update CHANGE COLUMN r43 r44 bit;
 REPLACE INTO `db_version_Infinity_Update` (`version`) VALUES ('r44');
