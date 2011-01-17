@@ -112,9 +112,9 @@ INSERT INTO creature_ai_scripts VALUES
 (1149003,11490,6,0,100,2,0,0,0,0, 34,0,3,0, 0,0,0,0, 0,0,0,0, 'Zevrim Thornhoof - type DONE');
 
 
+UPDATE db_version SET `cache_id`= '580';
 
 -- FallenAngelX
-UPDATE db_version SET `cache_id`= '580';
 ALTER TABLE db_version_Infinity_Update CHANGE COLUMN r45 r46 bit;
 REPLACE INTO `db_version_Infinity_Update` (`version`) VALUES ('r46');
 
