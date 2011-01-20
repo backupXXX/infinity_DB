@@ -35,7 +35,7 @@ INSERT INTO `mangos_string` (`entry`, `content_default`, `content_loc1`, `conten
 (20022, 'The Alliance won the second round, the Relic of Titan has been captured!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '?????? ??????? ?????? ?????, ???????? ?????? ?????????!');
 
 -- For SendWarningToAll(entry)
-DELETE FROM mangos_string WHERE entry IN (20024, 20025, 20026, 20027, 20028, 20029, 20030, 20031, 20032, 20033, 20034, 20035, 20036, 20037, 20038, 20039, 20040, 20041, 20042, 20043, 20044, 20045, 20046, 20047);
+DELETE FROM mangos_string WHERE entry IN (20024, 20025, 20026, 20027, 20028, 20029, 20030, 20031, 20032, 20033, 20034, 20035, 20036, 20037, 20038, 20039, 20040, 20041, 20042, 20043, 20044, 20045, 20046, 20047, 20048, 20049, 20050, 20051);
 INSERT INTO mangos_string (entry, content_default, content_loc1, content_loc2, content_loc3, content_loc4, content_loc5, content_loc6, content_loc7, content_loc8) VALUES
 (20024, 'The Horde attacks East Graveyard!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '???? ??????? ????????? ????????!'),
 (20025, 'The Horde attacks West Graveyard!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '???? ??????? ???????? ????????!'),
