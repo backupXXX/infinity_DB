@@ -1003,7 +1003,7 @@ UPDATE quest_template SET SpecialFlags=SpecialFlags|1 WHERE SpecialFlags=4;
 
 UPDATE db_version SET `cache_id`= '581';
 -- FallenAngelX
-ALTER TABLE db_version_Infinity_Update CHANGE COLUMN r51 r51 bit;
+ALTER TABLE db_version_Infinity_Update CHANGE COLUMN r50 r51 bit;
 REPLACE INTO `db_version_Infinity_Update` (`version`) VALUES ('r51');
 
 UPDATE db_version SET `cache_id`= 'r51';
